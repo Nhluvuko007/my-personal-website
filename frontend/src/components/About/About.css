@@ -1,0 +1,71 @@
+.about-display {
+    margin-top: 50px;
+    height: 45vw;
+    margin: 30px auto;
+    background-color: grey;
+    background-size: contain;
+    position: relative;
+    border-radius: 12px;
+}
+
+.about-display:hover {
+    background: white;
+    transform: scale(1.03);
+    border: 1px solid;
+    color: #262626;
+}
+
+.about-content h2 {
+    margin-top: 10px;
+}
+
+.about-content {
+    margin: auto auto;
+    font-size: min(3vw,18px);
+    text-align: center;
+    font-weight: 500;
+    color: #262626;
+}
+
+@media (max-width:1260px) {
+    .about-display {
+        height: 50vw;
+    }
+}
+
+@media (max-width:1250px) {
+    .about-display {
+        height: 60vw;
+    }
+}
+
+@media (max-width:1050px) {
+    .about-display {
+        height: 75vw;
+    }
+}
+
+@media (max-width:950px) {
+    .about-display {
+        height: 85vw;
+    }
+}
+
+@media (max-width:850px) {
+    .about-display {
+        height: 95vw;
+    }
+}
+
+@media (max-width:800px) {
+    .about-display {
+        height: 100vw;
+    }
+}
+
+
+@media (max-width:750px) {
+    .about-display {
+        height: 140vw;
+    }
+}

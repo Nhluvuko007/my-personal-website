@@ -1,0 +1,25 @@
+.explore-services {
+    margin: 30px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #262626;
+    font-weight: 500;
+    animation: fadeIn 3s;
+}
+
+.explore-services2 {
+    list-style: none;
+    gap: 20px;
+    color: #262626;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.explore-services hr {
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}

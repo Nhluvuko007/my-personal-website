@@ -1,0 +1,52 @@
+.alarm-display {
+    margin-top: 50px;
+    height: 10vw;
+    margin: 30px auto;
+    background-color: grey;
+    background-size: contain;
+    position: relative;
+    border-radius: 12px;
+}
+
+.alarm-display:hover {
+    background: white;
+    transform: scale(1.03);
+    border: 1px solid;
+    color: #262626;
+}
+
+.alarm-content h2 {
+    margin-top: 10px;
+}
+
+.alarm-content {
+    margin: auto auto;
+    font-size: min(3vw,18px);
+    text-align: center;
+    font-weight: 500;
+    color: #262626;
+}
+
+@media (max-width:1260px) {
+    .alarm-display {
+        height: 15vw;
+    }
+}
+
+@media (max-width:1050px) {
+    .alarm-display {
+        height: 20vw;
+    }
+}
+
+@media (max-width:850px) {
+    .alarm-display {
+        height: 25vw;
+    }
+}
+
+@media (max-width:750px) {
+    .alarm-display {
+        height: 35vw;
+    }
+}
